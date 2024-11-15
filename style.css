@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+    color: black;
+    margin: 0;
+    
+}
+#Home{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+   background-color: steelblue;
+   margin-top: 5px;
+   
+}
+#About{
+    background-color:lightblue ;
+    height:20rem;
+    text-align: center;
+}
+#work{
+    background-color: #0151cc;
+    height:400px;
+    
+    
+}
+#contact{
+    background-color:cadetblue;
+    height:400px;
+   
+}
+.nav li {
+    margin-right: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+}
+nav{
+    display: inline;
+}
+a{
+    text-decoration: none;
+}
+#About{
+    display: inline-block;
+    height: 100vh;
+}
